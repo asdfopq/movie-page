@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import styled from "styled-components";
 
 const TvContainer = styled.div`
@@ -9,3 +10,12 @@ const Tv = () => {
 };
 
 export default Tv;
+=======
+import React from "react";
+
+export default function Tv() {
+    return(
+        <div className="page-container" style={{fontSize : '32px'}}>Tv</div>
+    )
+}
+>>>>>>> 28cc9c12cca5453d9f94f69dacdad67fc7af1ad0

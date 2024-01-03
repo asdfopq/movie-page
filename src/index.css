@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import "reset.css";
+=======
+@import 'reset.css';
+>>>>>>> 28cc9c12cca5453d9f94f69dacdad67fc7af1ad0
 
 .root-wrap {
   position: absolute;
@@ -8,7 +12,11 @@
 }
 /* Header */
 .header-container {
+<<<<<<< HEAD
   background-color: rgba(3, 37, 45, 1);
+=======
+  background-color: rgba(3,37,45,1);
+>>>>>>> 28cc9c12cca5453d9f94f69dacdad67fc7af1ad0
 }
 .header-wrap {
   height: 60px;
@@ -22,7 +30,11 @@
   align-items: center;
   gap: 50px;
 }
+<<<<<<< HEAD
 .header-left-wrap ul {
+=======
+.header-left-wrap ul{
+>>>>>>> 28cc9c12cca5453d9f94f69dacdad67fc7af1ad0
   display: flex;
   gap: 30px;
 }
@@ -35,16 +47,25 @@
 }
 
 /* movie */
+<<<<<<< HEAD
 body {
   margin: 0;
   padding: 0;
   background: #1c1c1c;
 }
 .app-container {
+=======
+body{
+  margin:0; padding:0;
+  background:#1c1c1c;
+}
+.app-container{
+>>>>>>> 28cc9c12cca5453d9f94f69dacdad67fc7af1ad0
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
+<<<<<<< HEAD
 .movie-container {
   width: 250px;
   margin: 15px;
@@ -53,6 +74,16 @@ body {
   background: #444;
   position: relative;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+=======
+.movie-container{
+  width: 250px;
+  margin: 15px;
+  color:#fff;
+  border-radius:10px;
+  background:#444;
+  position: relative;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.4)
+>>>>>>> 28cc9c12cca5453d9f94f69dacdad67fc7af1ad0
 }
 .movie-container img {
   max-width: 100%;
@@ -60,17 +91,29 @@ body {
 }
 .overview {
   height: 375px;
+<<<<<<< HEAD
   position: absolute;
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.9);
+=======
+  position:absolute;
+  left: 0; top: 0;
+  background: rgba(0,0,0,0.9);
+>>>>>>> 28cc9c12cca5453d9f94f69dacdad67fc7af1ad0
   opacity: 0;
   line-height: 30px;
   padding: 4px;
   white-space: normal;
+<<<<<<< HEAD
   /* display: -webkit-box;
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical; */
+=======
+  display:-webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+>>>>>>> 28cc9c12cca5453d9f94f69dacdad67fc7af1ad0
   overflow: hidden;
 }
 .overview:hover {
@@ -80,9 +123,16 @@ body {
   padding: 10px;
 }
 
+<<<<<<< HEAD
 /* NotFound */
 .page-container {
   position: relative;
+=======
+
+
+/* NotFound */
+.page-container {
+>>>>>>> 28cc9c12cca5453d9f94f69dacdad67fc7af1ad0
   max-width: 1400px;
   margin: 0 auto;
   padding: 40px 0;
@@ -106,6 +156,7 @@ body {
   font-size: 1.5rem;
   color: red;
   cursor: pointer;
+<<<<<<< HEAD
 }
 
 /* MovieDetail */
@@ -116,3 +167,6 @@ body {
 .text-box > p {
   font-size: 20px;
 }
+=======
+}
+>>>>>>> 28cc9c12cca5453d9f94f69dacdad67fc7af1ad0
