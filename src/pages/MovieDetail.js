@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useParams, useLocation } from "react-router-dom";
 import styled from "styled-components";
 import { BASE_URL } from "../components/Movie";
@@ -21,7 +20,7 @@ const TextBox = styled.div`
   position: absolute;
   right: 0;
   top: 40px;
-  color: #fff;
+  color: #151515;
 
   h1 {
     font-size: 30px;
@@ -53,25 +52,3 @@ const MovieDetail = () => {
 };
 
 export default MovieDetail;
-=======
-import React from "react";
-import { useParams, useLocation } from "react-router-dom";
-import { BASE_URL } from "../components/Movie";
-
-
-export default function MovieDetail() {
-    const { title } = useParams();
-    const { state } = useLocation();
-
-    return(
-        <div className="page-container">
-            <div>
-                <img src={BASE_URL + state.poster_path} alt="영화 포스터" />
-            </div>
-            <div style={{color: '#fff'}}>
-                {title}
-            </div>
-        </div>
-    )
-}
->>>>>>> 28cc9c12cca5453d9f94f69dacdad67fc7af1ad0

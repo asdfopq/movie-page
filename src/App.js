@@ -1,15 +1,15 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Movies from './pages/Movies'
-import Tv from './pages/Tv'
-import Character from './pages/Character'
-import Home from './pages/Home'
-import NotFound from './pages/NotFound'
-import Header from './components/Header'
-import MovieDetail from './pages/MovieDetail'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Movies from "./pages/Movies";
+import Tv from "./pages/Tv";
+import Character from "./pages/Character";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import Header from "./components/Header";
+import MovieDetail from "./pages/MovieDetail";
 
 function App() {
   return (
-    <div className='root-wrap'>
+    <>
       <BrowserRouter>
         <Header />
         <Routes>
@@ -21,9 +21,8 @@ function App() {
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
 export default App;
-
